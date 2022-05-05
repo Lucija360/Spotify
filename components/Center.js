@@ -3,7 +3,7 @@ import {ChevronDownIcon} from "@heroicons/react/outline"
 import { useEffect, useState } from "react";
 import {shuffle} from "lodash";
 import { useRecoilState, useRecoilValue } from "recoil";
-import {playlistIdState, playlistState} from "../atoms/playlistAtom";
+import {playlistIdState, playlistState} from "/atmos/playlistAtom"
 import Songs from "../components/Songs";
 
 

@@ -1,5 +1,5 @@
 import useSpotify from "./useSpotify";
-import {currentTrackIdState} from "../atoms/songAtom";
+import {currentTrackIdState} from "/atmos/songAtom";
 import {useRecoilState} from "recoil";
 
 function useSongInfo() {

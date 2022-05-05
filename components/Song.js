@@ -1,7 +1,7 @@
 import { useRecoilState } from "recoil";
 import useSpotify from "../hooks/useSpotify";
 import millisToMinutesAndSeconds from "../lib/time";
-import {currentTrackIdState} from "../atoms/songAtom";
+import {currentTrackIdState} from "/atmos/songAtom";
 
 function Song({order, track}) {
 

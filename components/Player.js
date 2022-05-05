@@ -1,7 +1,7 @@
 import {useSession} from "next-auth/react";
 import useSpotify from "../hooks/useSpotify";
 import {useRecoilState} from "recoil";
-import {currentTrackIdState, isPLayingState} from "../atoms/songAtom";
+import {currentTrackIdState, isPLayingState} from "/atmos/songAtom";
 import useSongInfo from "../hooks/useSongInfo";
 import {useCallback, useState} from "react";
 import { RewindIcon, SwitchHorizontalIcon, HeartIcon, VolumeUpIcon as VolumeDownIcon } from "@heroicons/react/outline";

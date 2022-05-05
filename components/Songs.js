@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil";
-import {playlistState} from "../atoms/playlistAtom";
+import {playlistState} from "/atmos/playlistAtom";
 import Song from "../components/Song";
 
 
